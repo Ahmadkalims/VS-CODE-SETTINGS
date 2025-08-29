@@ -1,0 +1,32 @@
+/* vscode-acrylic.css — use rgba(50,57,70,alpha) for editor background */
+:root {
+  --vsc-custom-bg: rgba(50,57,70,0.55); /* adjust last number for opacity (0..1) */
+}
+
+/* Main editor background transparent */
+.monaco-editor,
+.monaco-editor .margin,
+.monaco-editor .monaco-editor-background {
+    background-color: rgb(50, 57, 70, 0.30) !important; /* your RGB + transparency */
+    /*backdrop-filter: blur(20px) !important; /* adjust blur to match sidebar */
+}
+
+/* Optional: Transparent tabs background */
+.part.editor > .content .editor-group-container {
+    background-color: rgb(50, 57, 70, 0.30) !important;
+    /*backdrop-filter: blur(20px) !important;*/
+}
+
+/* make side bars / statusbar slightly transparent so the acrylic feels consistent */
+.monaco-workbench .part.sidebar,
+.monaco-workbench .part.activitybar,
+.monaco-workbench .part.statusbar,
+.monaco-workbench .part.titlebar {
+  background-color: rgba(50,57,70,0.30) !important;
+}
+
+/* keep lists transparent so the blur shows through */
+.monaco-list-rows,
+.monaco-list .monaco-list-row {
+  background: transparent !important;
+}

@@ -1,0 +1,156 @@
+{
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "window.commandCenter": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.activityBar.location": "hidden",
+
+    "workbench.colorTheme": "Ayu Mirage",
+    "workbench.iconTheme": "glyph.legacy",
+
+    "window.title": "${rootName}",
+
+
+
+
+
+    
+
+
+
+
+
+
+
+// === COLOR VARIABLES ===
+// primary: #313947
+// secondary: #293039
+// accent: #93bdd6
+
+
+
+   "workbench.colorCustomizations": {
+    "window.titleBarStyle": "custom",
+    "titleBar.activeBackground": "#313947",
+    "titleBar.inactiveBackground": "#313947",
+    "titleBar.activeForeground": "#dfe6ea",
+    "titleBar.inactiveForeground": "#9aa3ad",
+    "titleBar.border": "#2b323800",
+    "tab.inactiveBackground": "#313947",
+    "tab.activeBackground": "#2a3039",
+    "tab.inactiveForeground": "#9aa3ad",
+    "tab.activeForeground": "#ffffff",
+    "tab.activeBorder": "#4a556800",
+    "tab.activeBorderTop": "#4a556800",
+    "tab.inactiveBorder": "#31394700",
+    "tab.border": "#2b323800",
+    "editorGroupHeader.tabsBackground": "#31394700",
+    "editorGroupHeader.tabsBorder": "#31394700",
+    "activityBar.background": "#293039",
+    "activityBar.border": "#29303900",
+    "activityBar.inactiveForeground": "#9aa3ad",
+    "sideBar.background": "#313947",
+    "sideBarSectionHeader.background": "#313947",
+    "sideBarSectionHeader.foreground": "#dfe6ea",
+    "sideBarTitle.foreground": "#dfe6ea",
+    "sideBar.border": "#2b323800",
+    "editor.background": "#313947",
+    "statusBar.background": "#313947",
+    "statusBar.noFolderBackground": "#313947",
+    "statusBar.debuggingBackground": "#313947",
+    "statusBar.foreground": "#dfe6ea",
+    "panel.background": "#ff0000",
+    "scrollbar.shadow": "#00000000",
+    "button.background": "#93bdd6",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#1c4180c5",
+    "notification.background": "#293039",
+    "notification.foreground": "#dfe6ea",
+    "notification.buttonBackground": "#670eaf",
+    "notification.buttonForeground": "#ffffff",
+    "notification.buttonHoverBackground": "#1c4180c5",
+    "notification.border": "#29303900",
+    "notificationLink.foreground": "#670eaf",
+    "notificationLink.activeForeground": "#670eaf",
+    "notificationLink.hoverForeground": "#1c4180c5",
+    "notificationLink.border": "#29303900"
+},
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    //==============Fonts========================
+
+    // ==============Terminal=====================
+    "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+
+    // ==============Editor========================
+    "editor.fontFamily": "Montserrat Alternates",
+    "editor.lineHeight": 32, 
+    "editor.cursorBlinking": "smooth",
+    "editor.padding.top": 16, // Adjusts the top padding of the editor
+    "editor.mouseWheelZoom": true, //enables ctrl + mouse wheel zooming
+    
+
+
+
+
+
+
+
+
+
+    "files.exclude": {
+        "**/*.exe": true
+    },
+
+
+
+
+
+
+
+
+
+
+    
+    //Custom CSS and JS LINKING
+    "vscode_custom_css.imports": [
+    "file:///C:/Users/Anas/Desktop/XOMX/VS%20CODE/custom-vscode.css",
+    "file:///C:/Users/Anas/Desktop/XOMX/VS%20CODE/custom-vscode.js"
+    ],
+
+
+
+
+
+
+    //===============vibrancy========================
+    "vscode_vibrancy.type": "acrylic",
+    "vscode_vibrancy.opacity": 0.0,
+    "vscode_vibrancy.imports": [
+        "C:/Users/Anas/Desktop/XOMX/VS CODE/vibrancy-acrylic/vscode-acrylic.css"
+    ],
+
+    "vscode_vibrancy.disableFramelessWindow": true,
+    "vscode_vibrancy.preventFlash": true,
+    "vscode_vibrancy.enableAutoTheme": true,
+    "vscode_vibrancy.refreshInterval": 10,
+    "terminal.integrated.gpuAcceleration": "auto",
+    "window.titleBarStyle": "custom",
+    "workbench.preferredDarkColorTheme": "Ayu Mirage"
+
+
+}
